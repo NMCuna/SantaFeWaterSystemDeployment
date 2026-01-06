@@ -1,0 +1,239 @@
+﻿@model SantaFeWaterSystem.ViewModels.BillingFormViewModel
+
+@{
+    bool isEdit = Model.Billing?.Id > 0;
+    ViewData["Title"] = isEdit ? "Edit Billing" : "Add New Billing";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@section Styles {
+<style>
+    .form-section {
+        background-color: #dee2e6;
+        border: 1px solid #dee2e6;
+        border-radius: 10px;
+        padding: 30px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .05);
+    }
+    h2.page-header {
+        font-size: 2rem;
+        color: #0d6efd;
+        font-weight: bold;
+        border-left: 5px solid #0d6efd;
+        padding-left: 15px;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+    }
+    h2.page-header i { margin-right: 10px; }
+    .form-label { font-weight: 500; }
+    .is-invalid { border: 2px solid red !important; background: #ffe6e6; }
+</style>
+}
+
+<div class="container mt-4">
+    <h2 class="page-header">
+        <i class="bi @(isEdit ? "bi-pencil-square" : "bi-plus-circle")"></i>
+        @(isEdit ? "Edit Billing" : "Add New Billing")
+    </h2>
+
+    
+        <form asp-action="@(isEdit ? "Edit" : "Create")" method="post">
+            @Html.AntiForgeryToken()
+
+            <!-- Keep pagination & filters on return -->
+            <input type="hidden" name="page" value="@ViewData["Page"]" />
+            <input type="hidden" name="search" value="@ViewData["Search"]" />
+            <input type="hidden" name="status" value="@ViewData["Status"]" />
+            <input type="hidden" asp-for="Billing.Id" />
+
+
+        <div class="form-section">
+            <div class="row g-3">
+
+                <div class="col-md-6">
+                    <label asp-for="Billing.BillNo" class="form-label"></label>
+                    <input asp-for="Billing.BillNo" class="form-control" readonly />
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="Billing.ConsumerId" class="form-label">Consumer</label>
+                    @if (isEdit)
+                    {
+                        <select asp-for="Billing.ConsumerId"
+                                asp-items="@(new SelectList(Model.Consumers, "Id", "FullName"))"
+                                class="form-control"
+                                disabled>
+                            <option value="">-- Select Consumer --</option>
+                        </select>
+                        <input type="hidden" asp-for="Billing.ConsumerId" />
+                    }
+                    else
+                    {
+                        <select asp-for="Billing.ConsumerId"
+                                asp-items="@(new SelectList(Model.Consumers, "Id", "FullName"))"
+                                class="form-control">
+                            <option value="">-- Select Consumer --</option>
+                        </select>
+                    }
+                </div>
+
+
+                <div class="col-md-6">
+                    <label class="form-label">Account Type</label>
+                    <input id="accountType" class="form-control" readonly />
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Rate per Cubic Meter</label>
+                    <input id="ratePerCubic" class="form-control" readonly value="Bracketed" />
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="Billing.BillingDate" class="form-label"></label>
+                    <input asp-for="Billing.BillingDate" type="date" class="form-control" />
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="Billing.PreviousReading" class="form-label"></label>
+                    <input asp-for="Billing.PreviousReading" class="form-control" readonly />
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="Billing.PresentReading" class="form-label"></label>
+                    <input asp-for="Billing.PresentReading" class="form-control" />
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Cubic Meter Used</label>
+                    <input asp-for="Billing.CubicMeterUsed" class="form-control" readonly />
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="Billing.AmountDue" class="form-label"></label>
+                    <input asp-for="Billing.AmountDue" class="form-control" readonly />
+                </div>
+
+                <div class="col-md-12">
+                    <label asp-for="Billing.Remarks" class="form-label"></label>
+                    <input asp-for="Billing.Remarks" class="form-control" readonly />
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="Billing.AdditionalFees" class="form-label"></label>
+                    <input asp-for="Billing.AdditionalFees" class="form-control" />
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="Billing.DueDate" class="form-label"></label>
+                    <input asp-for="Billing.DueDate" type="date" class="form-control" />
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Penalty</label>
+                    <input asp-for="Billing.Penalty" class="form-control" readonly />
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Total Amount</label>
+                    <input asp-for="Billing.TotalAmount" class="form-control" readonly />
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <button type="submit" class="btn btn-primary">
+                    <i class="bi @(isEdit ? "bi-check2-circle" : "bi-save")"></i>
+                    @(isEdit ? "Update" : "Save")
+                </button>
+
+                    <a asp-action="Index"
+                       asp-route-page="@ViewData["Page"]"
+                       asp-route-search="@ViewData["Search"]"
+                       asp-route-status="@ViewData["Status"]"
+                       class="btn btn-secondary ms-2">
+                        <i class="bi bi-x-circle"></i> Cancel
+                    </a>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+
+<script>
+    const isEdit = @isEdit.ToString().ToLower();
+
+    const consumerSelect = document.querySelector('[name="Billing.ConsumerId"]');
+    const accountTypeInput = document.getElementById("accountType");
+    const rateInput = document.getElementById("ratePerCubic");
+
+    const prevReadingInput = document.querySelector('[name="Billing.PreviousReading"]');
+    const presentReadingInput = document.querySelector('[name="Billing.PresentReading"]');
+    const cubicMeterUsedInput = document.querySelector('[name="Billing.CubicMeterUsed"]');
+    const amountDueInput = document.querySelector('[name="Billing.AmountDue"]');
+    const additionalFeesInput = document.querySelector('[name="Billing.AdditionalFees"]');
+    const penaltyInput = document.querySelector('[name="Billing.Penalty"]');
+    const totalAmountInput = document.querySelector('[name="Billing.TotalAmount"]');
+    const dueDateInput = document.querySelector('[name="Billing.DueDate"]');
+    const remarksInput = document.querySelector('[name="Billing.Remarks"]');
+
+    let penaltyFromDb = 0;
+
+    async function loadConsumerData() {
+        const consumerId = consumerSelect.value;
+        if (!consumerId) return;
+
+        const response = await fetch(`/Admin/GetConsumerInfo?consumerId=${consumerId}`);
+        const data = await response.json();
+
+        accountTypeInput.value = data.accountType;
+        rateInput.value = "Bracketed";
+        penaltyFromDb = data.penalty;
+
+        if (!isEdit) {
+            prevReadingInput.value = data.previousReading;
+            presentReadingInput.value = "";
+        }
+
+        calculateBilling();
+    }
+
+    if (!isEdit) consumerSelect.addEventListener('change', loadConsumerData);
+    if (isEdit) loadConsumerData();
+
+    presentReadingInput.addEventListener('input', calculateBilling);
+    additionalFeesInput.addEventListener('input', calculateBilling);
+    dueDateInput.addEventListener('change', calculateBilling);
+
+    async function calculateBilling() {
+        const prev = parseFloat(prevReadingInput.value) || 0;
+        const present = parseFloat(presentReadingInput.value) || 0;
+
+        if (present < prev) {
+            presentReadingInput.classList.add("is-invalid");
+            remarksInput.value = "❌ Invalid: Present reading lower than previous.";
+            return;
+        }
+        presentReadingInput.classList.remove("is-invalid");
+
+        const meter = present - prev;
+        cubicMeterUsedInput.value = meter.toFixed(2);
+
+        const response = await fetch(`/Billing/ComputeBill?consumerId=${consumerSelect.value}&cubicUsed=${meter}`);
+        const data = await response.json();
+
+        amountDueInput.value = data.amountDue.toFixed(2);
+        remarksInput.value = data.remarks;
+
+        const addFee = parseFloat(additionalFeesInput.value) || 0;
+        const due = new Date(dueDateInput.value);
+        const today = new Date();
+        let penalty = today > due ? penaltyFromDb : 0;
+
+        penaltyInput.value = penalty.toFixed(2);
+        totalAmountInput.value = (data.amountDue + penalty + addFee).toFixed(2);
+    }
+</script>
+}

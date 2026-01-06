@@ -1,0 +1,717 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SantaFeWaterSystem
+build_property.RootNamespace = SantaFeWaterSystem
+build_property.ProjectDir = C:\Users\Joa\source\repos\SantaFeWaterSystemDeploy\SantaFeWaterSystem\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Joa\source\repos\SantaFeWaterSystemDeploy\SantaFeWaterSystem
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Account/AccountLocked.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2NvdW50TG9ja2VkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Account/AdminLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBZG1pbkxvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Account/ForgotPasswordUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Account/ForgotPasswordUserConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZFVzZXJDb25maXJtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Account/MySecretEmergenceResetPasswordforAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxNeVNlY3JldEVtZXJnZW5jZVJlc2V0UGFzc3dvcmRmb3JBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Account/RegisterAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RlckFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Account/RegisterUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RlclVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Account/Reset2FA.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldDJGQS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Account/ResetPasswordUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Account/ResetPasswordUserConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkVXNlckNvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Account/ResetPasswordUserInvalid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkVXNlckludmFsaWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Account/Setup2FAAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTZXR1cDJGQUFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Account/Setup2FAUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTZXR1cDJGQVVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Account/TemporaryLocked.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxUZW1wb3JhcnlMb2NrZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Account/UserLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxVc2VyTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Account/Verify2FAAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxWZXJpZnkyRkFBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Account/Verify2FAUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxWZXJpZnkyRkFVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/AdminEmailSettings/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5FbWFpbFNldHRpbmdzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/AdminEmailSettings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5FbWFpbFNldHRpbmdzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/AdminInquiry/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5JbnF1aXJ5XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/AdminInquiry/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5JbnF1aXJ5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/AdminInquiry/Reply.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5JbnF1aXJ5XFJlcGx5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/AdminResetTokens/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZXNldFRva2Vuc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/AdminResetTokens/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZXNldFRva2Vuc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/AdminSettings/EditToken.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5TZXR0aW5nc1xFZGl0VG9rZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/AdminSettings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5TZXR0aW5nc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Admin/ConsumerDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29uc3VtZXJEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Admin/Consumers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29uc3VtZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Admin/CreateConsumer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlQ29uc3VtZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Admin/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Admin/DeleteConsumer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlQ29uc3VtZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Admin/DeleteUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Admin/EditAdminUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdEFkbWluVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Admin/EditConsumer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdENvbnN1bWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Admin/EditConsumerUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdENvbnN1bWVyVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Admin/EditPermissions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFBlcm1pc3Npb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Admin/LockUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9ja1VzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Admin/ManageUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlVXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Admin/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Admin/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmVzZXRQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Admin/UnlockUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVW5sb2NrVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Admin/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Announcement/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VuY2VtZW50XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Announcement/EditAnnouncement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VuY2VtZW50XEVkaXRBbm5vdW5jZW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Announcement/EditFeedback.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VuY2VtZW50XEVkaXRGZWVkYmFjay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Announcement/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VuY2VtZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Announcement/_FeedbackCommentItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VuY2VtZW50XF9GZWVkYmFja0NvbW1lbnRJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Announcement/_FeedbackItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VuY2VtZW50XF9GZWVkYmFja0l0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/AuditTrail/ArchiveDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVkaXRUcmFpbFxBcmNoaXZlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/AuditTrail/AuditArchive.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVkaXRUcmFpbFxBdWRpdEFyY2hpdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/AuditTrail/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVkaXRUcmFpbFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/AuditTrail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVkaXRUcmFpbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Backup/BackupHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFja3VwXEJhY2t1cEhpc3RvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Backup/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFja3VwXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Backup/ManageBackups.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFja3VwXE1hbmFnZUJhY2t1cHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Backup/RestoreDatabase.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFja3VwXFJlc3RvcmVEYXRhYmFzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Billing/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbGluZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Billing/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbGluZ1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Billing/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbGluZ1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Billing/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbGluZ1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Billing/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbGluZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/ConsumerSetting/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VtZXJTZXR0aW5nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Contacts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Contacts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Contacts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Contacts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Disconnection/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY29ubmVjdGlvblxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Disconnection/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY29ubmVjdGlvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/EmailLogs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxMb2dzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/EmailLogs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxMb2dzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/GeneralSettings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbFNldHRpbmdzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/GeneralSettings/Policies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbFNldHRpbmdzXFBvbGljaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/GeneralSettings/Security.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbFNldHRpbmdzXFNlY3VyaXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/GeneralSettings/System.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbFNldHRpbmdzXFN5c3RlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Help/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscFxBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Help/Consumer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscFxDb25zdW1lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Help/CreateMultiple.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscFxDcmVhdGVNdWx0aXBsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Help/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Help/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Help/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Help/HomeHelp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscFxIb21lSGVscC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Help/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Help/Staff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscFxTdGFmZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/HomePage/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVBhZ2VcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/HomePage/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVBhZ2VcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/HomePage/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVBhZ2VcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/HomePage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVBhZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Inquiry/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5xdWlyeVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/LockoutPolicy/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9ja291dFBvbGljeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Notifications/Archived.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uc1xBcmNoaXZlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Notifications/ArchivedSmsLogs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uc1xBcmNoaXZlZFNtc0xvZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Notifications/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Notifications/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Notifications/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Notifications/SendSms.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uc1xTZW5kU21zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Notifications/SmsLogs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uc1xTbXNMb2dzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Notifications/UserNotification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uc1xVc2VyTm90aWZpY2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/PasswordPolicy/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc3dvcmRQb2xpY3lcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Payments/CreatePayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudHNcQ3JlYXRlUGF5bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Payments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Payments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Payments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Payments/ManagePayments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudHNcTWFuYWdlUGF5bWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Payments/WalkInConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudHNcV2Fsa0luQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/PrivacyPolicy/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpdmFjeVBvbGljeVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/PrivacyPolicy/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpdmFjeVBvbGljeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/PrivacyPolicy/PrivacyAgreements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpdmFjeVBvbGljeVxQcml2YWN5QWdyZWVtZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Privacy/Agree.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpdmFjeVxBZ3JlZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/RateBracket/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmF0ZUJyYWNrZXRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/RateBracket/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmF0ZUJyYWNrZXRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/RateBracket/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmF0ZUJyYWNrZXRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/RateBracket/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmF0ZUJyYWNrZXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/RateBracket/_FormRateBracket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmF0ZUJyYWNrZXRcX0Zvcm1SYXRlQnJhY2tldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Rate/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmF0ZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Rate/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmF0ZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Rate/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmF0ZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Rate/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmF0ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Reports/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Settings/GcashQr.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ3NcR2Nhc2hRci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Settings/QrCodes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ3NcUXJDb2Rlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Shared/Components/AuditTrail/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQXVkaXRUcmFpbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Shared/Components/TwoFactorStatusAdmin/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVHdvRmFjdG9yU3RhdHVzQWRtaW5cRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Shared/Components/UserAvatar/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVXNlckF2YXRhclxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Shared/_AccountLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BY2NvdW50TGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Shared/_CookieConsentPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db29raWVDb25zZW50UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Shared/_DashboardModals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EYXNoYm9hcmRNb2RhbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Shared/_HomeLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ib21lTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Shared/_LyricsModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MeXJpY3NNb2RhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Shared/_PasswordRequirements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXNzd29yZFJlcXVpcmVtZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Shared/_ToastNotification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ub2FzdE5vdGlmaWNhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Shared/_UserLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Staff/AssignPermissions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcQXNzaWduUGVybWlzc2lvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Supports/Archived.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcG9ydHNcQXJjaGl2ZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Supports/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcG9ydHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Supports/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcG9ydHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Supports/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcG9ydHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Supports/Reply.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcG9ydHNcUmVwbHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Supports/UserSupport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcG9ydHNcVXNlclN1cHBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/SystemBranding/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3lzdGVtQnJhbmRpbmdcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/SystemBranding/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3lzdGVtQnJhbmRpbmdcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/SystemBranding/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3lzdGVtQnJhbmRpbmdcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/SystemBranding/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3lzdGVtQnJhbmRpbmdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/UserActivity/Archive.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFjdGl2aXR5XEFyY2hpdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/UserActivity/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFjdGl2aXR5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/UserProfile/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclByb2ZpbGVcUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/UserProfile/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclByb2ZpbGVcUmVzZXRQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/User/BillingDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxCaWxsaW5nRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/User/BillingHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxCaWxsaW5nSGlzdG9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/User/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/User/NotLinked.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxOb3RMaW5rZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/User/Pay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQYXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/User/Payment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQYXltZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/User/PaymentConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQYXltZW50Q29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/User/PaymentReceipt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQYXltZW50UmVjZWlwdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/User/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/User/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/User/Support.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTdXBwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/User/_BillingCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxfQmlsbGluZ0NhcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Visitor/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRvclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Visitor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joa/source/repos/SantaFeWaterSystemDeploy/SantaFeWaterSystem/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-bwulinf28v

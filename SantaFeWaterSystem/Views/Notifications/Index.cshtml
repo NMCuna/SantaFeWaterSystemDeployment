@@ -1,0 +1,222 @@
+﻿@model IPagedList<Notification>
+@using X.PagedList.Mvc.Core
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    ViewData["Title"] = "Manage Notifications";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+
+    // Filters from query string
+    var searchTerm = Context.Request.Query["searchTerm"].ToString();
+    var selectedMonth = Context.Request.Query["selectedMonth"].ToString();
+    var selectedYear = Context.Request.Query["selectedYear"].ToString();
+
+    var user = HttpContextAccessor.HttpContext?.User;
+    var isAdmin = user?.IsInRole("Admin") ?? false;
+    var isStaff = user?.IsInRole("Staff") ?? false;
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/manage-notifications.css" asp-append-version="true" />
+}
+
+<h2 class="page-header"><i class="bi bi-bell-fill text-warning"></i> Manage Notifications</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <i class="bi bi-check-circle"></i> @TempData["Success"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<form method="get" class="mb-3 row g-2" id="filterForm">
+    <div class="col-md-4">
+        <input type="text" name="searchTerm" class="form-control" placeholder="Search title, message, or consumer..." value="@searchTerm" />
+    </div>
+    <div class="col-md-3">
+        <select name="selectedMonth" class="form-select">
+            <option value="">All Months</option>
+            @for (int m = 1; m <= 12; m++)
+            {
+                var monthName = System.Globalization.CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(m);
+                <option value="@m" selected="@(selectedMonth == m.ToString() ? "selected" : null)">@monthName</option>
+            }
+        </select>
+    </div>
+    <div class="col-md-3">
+        <select name="selectedYear" class="form-select">
+            <option value="">All Years</option>
+            @for (int y = DateTime.Now.Year; y >= DateTime.Now.Year - 5; y--)
+            {
+                <option value="@y" selected="@(selectedYear == y.ToString() ? "selected" : null)">@y</option>
+            }
+        </select>
+    </div>
+    <div class="col-md-auto">
+        <button type="submit" class="btn btn-outline-primary"><i class="bi bi-search"></i> Filter</button>
+    </div>
+</form>
+
+<form asp-action="ArchiveSelectedByAdmin" method="post" id="bulkArchiveForm" class="mb-4 d-flex gap-2 flex-wrap">
+    <a class="btn btn-primary" asp-action="Create"><i class="bi bi-plus-circle me-1"></i> Announcement</a>
+    <a class="btn btn-secondary" asp-action="Archived"><i class="bi bi-archive-fill me-1"></i> View Archived</a>
+
+    <input type="hidden" name="selectedIds" id="bulkSelectedIds" />
+
+    <!-- Hidden filter inputs to preserve current search, month/year, and page -->
+    <input type="hidden" name="searchTerm" value="@searchTerm" />
+    <input type="hidden" name="selectedMonth" value="@selectedMonth" />
+    <input type="hidden" name="selectedYear" value="@selectedYear" />
+    <input type="hidden" name="page" value="@Model.PageNumber" />
+
+    <button type="submit" class="btn btn-warning"><i class="bi bi-archive"></i> Archive Selected</button>
+</form>
+
+
+
+<div class="table-responsive">
+    <table class="table table-bordered table-hover align-middle shadow-sm">
+        <thead class="text-center">
+            <tr>
+                <th><input type="checkbox" id="selectAll" /></th>
+                <th>To</th>
+                <th>Title</th>
+                <th>Message</th>
+                <th>Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var n in Model)
+            {
+                <tr class="@(n.IsRead ? "" : "fw-bold")">
+                    <td class="text-center">
+                        <input type="checkbox" class="notification-checkbox" value="@n.Id" />
+                    </td>
+                    <td>
+                        @if (n.Consumer != null)
+                        {
+                            <span class="badge bg-secondary">@n.Consumer.FullName</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-info text-dark">All Consumers</span>
+                        }
+                    </td>
+                    <td>@n.Title</td>
+                    <td class="text-truncate">
+                        <a href="javascript:void(0);" onclick="showMessage('@n.Title', `@n.Message.Replace("`", "\\`")`)">
+                            <i class="bi bi-eye-fill text-primary"></i> View
+                        </a>
+                    </td>
+                    <td>@n.CreatedAt.ToString("yyyy-MM-dd hh:mm tt")</td>
+                    <td class="text-center">
+                        <form asp-action="Archive" asp-route-id="@n.Id" method="post" class="d-inline">
+                            @Html.AntiForgeryToken()
+                            <!-- Preserve filters and page -->
+                            <input type="hidden" name="searchTerm" value="@searchTerm" />
+                            <input type="hidden" name="selectedMonth" value="@selectedMonth" />
+                            <input type="hidden" name="selectedYear" value="@selectedYear" />
+                            <input type="hidden" name="page" value="@Model.PageNumber" />
+
+                            <button type="submit" class="btn btn-sm btn-warning" title="Archive">
+                                <i class="bi bi-archive"></i>
+                            </button>
+                        </form>
+
+                        <a asp-action="Delete" asp-route-id="@n.Id"
+                           asp-route-searchTerm="@searchTerm"
+                           asp-route-selectedMonth="@selectedMonth"
+                           asp-route-selectedYear="@selectedYear"
+                           asp-route-page="@Model.PageNumber"
+                           class="btn btn-sm btn-danger" title="Delete">
+                            <i class="bi bi-trash"></i>
+                        </a>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@if (Model.PageCount > 1)
+{
+    <div class="d-flex justify-content-center mt-3">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new
+        {
+            page,
+        searchTerm = searchTerm,
+        selectedMonth = selectedMonth,
+        selectedYear = selectedYear
+        }), new PagedListRenderOptions
+        {
+            DisplayLinkToPreviousPage = PagedListDisplayMode.Always,
+            DisplayLinkToNextPage = PagedListDisplayMode.Always,
+            DisplayLinkToFirstPage = PagedListDisplayMode.Always,
+            DisplayLinkToLastPage = PagedListDisplayMode.Always,
+            MaximumPageNumbersToDisplay = 5,
+            LiElementClasses = new[] { "page-item" },
+            PageClasses = new[] { "page-link" }
+        })
+</div>
+}
+
+<!-- Message Modal -->
+<div class="modal fade" id="messageModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title" id="modalTitle"></h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body" id="modalMessage" style="white-space: pre-wrap;"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function showMessage(title, message) {
+            document.getElementById("modalTitle").innerText = title;
+            document.getElementById("modalMessage").innerText = message;
+            new bootstrap.Modal(document.getElementById("messageModal")).show();
+        }
+
+        document.getElementById("selectAll").addEventListener("change", function () {
+            const isChecked = this.checked;
+            document.querySelectorAll(".notification-checkbox").forEach(cb => cb.checked = isChecked);
+        });
+
+        document.getElementById("bulkArchiveForm").addEventListener("submit", function (e) {
+            const selected = Array.from(document.querySelectorAll(".notification-checkbox:checked"))
+                .map(cb => cb.value);
+
+            if (selected.length === 0) {
+                e.preventDefault();
+                alert("Please select at least one notification to archive.");
+                return;
+            }
+
+            document.getElementById("bulkSelectedIds").value = selected.join(",");
+        });
+
+        // Optional: Auto-submit filter on input change (like Billing)
+        const filterForm = document.getElementById("filterForm");
+        filterForm.querySelector("input[name='searchTerm']").addEventListener("input", debounce(() => filterForm.submit(), 500));
+        filterForm.querySelector("select[name='selectedMonth']").addEventListener("change", () => filterForm.submit());
+        filterForm.querySelector("select[name='selectedYear']").addEventListener("change", () => filterForm.submit());
+
+        function debounce(fn, delay) {
+            let timeout;
+            return function() {
+                clearTimeout(timeout);
+                timeout = setTimeout(fn, delay);
+            };
+        }
+    </script>
+}

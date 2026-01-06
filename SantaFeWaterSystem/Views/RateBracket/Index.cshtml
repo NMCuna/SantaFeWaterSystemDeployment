@@ -1,0 +1,42 @@
+﻿@model IEnumerable<SantaFeWaterSystem.Models.RateBracket>
+@{
+    ViewData["Title"] = "Rate Brackets";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Rate Brackets</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Create New Bracket</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Account Type</th>
+            <th>Range</th>
+            <th>Rate / cbm</th>
+            <th>Base Amount</th>
+            <th>Penalty</th>
+            <th>Effective Date</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.AccountType</td>
+                <td>@(item.MinCubic?.ToString() ?? "-") - @(item.MaxCubic?.ToString() ?? "∞")</td>
+                <td>@(item.RatePerCubicMeter.HasValue? item.RatePerCubicMeter.Value.ToString("C") : "-")</td>
+                <td>@(item.BaseAmount.HasValue? item.BaseAmount.Value.ToString("C") : "-")</td>
+                <td>@(item.PenaltyAmount.HasValue? item.PenaltyAmount.Value.ToString("C") : "-")</td>
+                <td>@(item.EffectiveDate.HasValue? item.EffectiveDate.Value.ToString("yyyy-MM-dd") : "-")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-primary">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

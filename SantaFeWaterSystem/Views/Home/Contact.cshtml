@@ -1,0 +1,103 @@
+﻿@model SantaFeWaterSystem.Models.ContactInfo
+@{
+    ViewData["Title"] = "Contact Us";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/contact.css" asp-append-version="true" />
+    <style>
+        .inquiry-btn {
+            font-size: 1.25rem; /* bigger text */
+            font-weight: 600;
+            padding: 0.75rem 2rem;
+            border-radius: 50px; /* pill-shaped */
+            background: linear-gradient(90deg, #0d6efd, #3d8bfd);
+            color: #fff;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+            .inquiry-btn:hover {
+                background: linear-gradient(90deg, #0b5ed7, #2a75d2);
+                transform: translateY(-3px);
+                box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+                text-decoration: none;
+            }
+
+            .inquiry-btn:focus {
+                outline: none;
+                box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);
+            }
+
+            /* Optional: icon spacing */
+            .inquiry-btn i {
+                vertical-align: middle;
+            }
+    </style>
+}
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8">
+            <div class="contact-section">
+                <h1 class="contact-heading mb-4">
+                    <i class="bi bi-telephone-forward"></i> Contact Us
+                </h1>
+
+                @if (!string.IsNullOrWhiteSpace(Model.IntroText))
+                {
+                    <p class="contact-text">@Model.IntroText</p>
+                }
+
+                @if (!string.IsNullOrWhiteSpace(Model.Phone))
+                {
+                    <p class="contact-text">
+                        <i class="bi bi-telephone-fill contact-icon"></i>
+                        <strong>Phone:</strong> @Model.Phone
+                    </p>
+                }
+
+                @if (!string.IsNullOrWhiteSpace(Model.Email))
+                {
+                    <p class="contact-text">
+                        <i class="bi bi-envelope-fill contact-icon"></i>
+                        <strong>Email:</strong>
+                        <a href="mailto:@Model.Email">@Model.Email</a>
+                    </p>
+                }
+
+                @if (!string.IsNullOrWhiteSpace(Model.FacebookUrl) && !string.IsNullOrWhiteSpace(Model.FacebookName))
+                {
+                    <p class="contact-text">
+                        <i class="bi bi-facebook contact-icon" style="color:#1877f2;"></i>
+                        <strong>Facebook:</strong>
+                        <a href="@Model.FacebookUrl" target="_blank">@Model.FacebookName</a>
+                    </p>
+                }
+
+
+                <div class="divider"></div>
+
+                @if (!string.IsNullOrWhiteSpace(Model.WaterMeterHeading))
+                {
+                    <h5 class="mt-4 contact-heading">@Model.WaterMeterHeading</h5>
+                }
+
+                @if (!string.IsNullOrWhiteSpace(Model.WaterMeterInstructions))
+                {
+                    <p class="contact-text">@Model.WaterMeterInstructions</p>
+                }
+
+                <div class="divider"></div>
+
+                <div class="mt-5 text-center">
+                    <a asp-controller="Inquiry" asp-action="Create" class="inquiry-btn btn btn-lg">
+                        <i class="bi bi-chat-left-text me-2"></i> Submit an Inquiry
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+

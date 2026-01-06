@@ -1,0 +1,45 @@
+﻿@model SantaFeWaterSystem.Models.RateBracket
+
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+<div class="mb-3">
+    <label asp-for="AccountType" class="form-label"></label>
+    <select asp-for="AccountType" class="form-select" asp-items="ViewBag.AccountTypes"></select>
+    <span asp-validation-for="AccountType" class="text-danger"></span>
+</div>
+
+<div class="row">
+    <div class="col-md-3 mb-3">
+        <label asp-for="MinCubic" class="form-label"></label>
+        <input asp-for="MinCubic" class="form-control" />
+        <span asp-validation-for="MinCubic" class="text-danger"></span>
+    </div>
+    <div class="col-md-3 mb-3">
+        <label asp-for="MaxCubic" class="form-label"></label>
+        <input asp-for="MaxCubic" class="form-control" />
+        <span asp-validation-for="MaxCubic" class="text-danger"></span>
+    </div>
+    <div class="col-md-3 mb-3">
+        <label asp-for="RatePerCubicMeter" class="form-label"></label>
+        <input asp-for="RatePerCubicMeter" class="form-control" />
+        <span asp-validation-for="RatePerCubicMeter" class="text-danger"></span>
+    </div>
+    <div class="col-md-3 mb-3">
+        <label asp-for="BaseAmount" class="form-label"></label>
+        <input asp-for="BaseAmount" class="form-control" />
+        <span asp-validation-for="BaseAmount" class="text-danger"></span>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4 mb-3">
+        <label asp-for="PenaltyAmount" class="form-label"></label>
+        <input asp-for="PenaltyAmount" class="form-control" />
+        <span asp-validation-for="PenaltyAmount" class="text-danger"></span>
+    </div>
+    <div class="col-md-4 mb-3">
+        <label asp-for="EffectiveDate" class="form-label"></label>
+        <input asp-for="EffectiveDate" class="form-control" type="date" />
+        <span asp-validation-for="EffectiveDate" class="text-danger"></span>
+    </div>
+</div>

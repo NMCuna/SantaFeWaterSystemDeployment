@@ -1,0 +1,104 @@
+﻿@model SantaFeWaterSystem.Models.PrivacyPolicy
+
+@{
+    ViewData["Title"] = "Privacy Policy Agreement";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/privacy-policy-agree.css" asp-append-version="true" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+}
+
+<div class="privacy-container">
+
+    <!-- Header -->
+    <div class="privacy-header text-center mb-3">
+        <h1 class="privacy-title">@Model.Title</h1>
+    </div>
+
+    <!-- Policy Content Box -->
+    <div class="privacy-box">
+
+        <!-- Intro -->
+        @if (!string.IsNullOrWhiteSpace(Model.Content))
+        {
+            <p class="privacy-intro">@Model.Content</p>
+        }
+
+        <!-- Collapsible Sections -->
+        @if (Model.Sections != null && Model.Sections.Any(s => s.IsActive))
+        {
+            <div class="accordion" id="privacyAccordion">
+                @{
+                    int sectionCounter = 1;
+                }
+
+                @foreach (var sec in Model.Sections.Where(s => s.IsActive))
+                {
+                    var collapseId = $"section-{sec.Id}";
+                    var isFirst = sectionCounter == 1; // open first section by default
+                                                       <div class="accordion-item mb-3 privacy-section">
+                                                           <h2 class="accordion-header" id="heading-@sec.Id">
+                                                               <button class="accordion-button @(isFirst ? "" : "collapsed") privacy-section-title" type="button"
+                                                                       data-bs-toggle="collapse"
+                                                                       data-bs-target="#@collapseId"
+                                                                       aria-expanded="@(isFirst.ToString().ToLower())"
+                                                                       aria-controls="@collapseId">
+                                                                   <span class="section-number me-2">@sectionCounter.</span> @sec.SectionTitle
+                                                               </button>
+                                                           </h2>
+                                                           <div id="@collapseId" class="accordion-collapse collapse @(isFirst ? "show" : "")"
+                                                                aria-labelledby="heading-@sec.Id" data-bs-parent="#privacyAccordion">
+                                                               <div class="accordion-body privacy-section-content">
+                                                                   @Html.Raw(sec.Content)
+                                                               </div>
+                                                           </div>
+                                                       </div>
+
+                    sectionCounter++;
+                }
+            </div>
+        }
+    </div>
+
+    <!-- Agreement Form -->
+    <form method="post" asp-action="AgreePolicy" asp-controller="Privacy" class="privacy-form mt-4">
+        <input type="hidden" name="policyVersion" value="@Model.Version" />
+
+        <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="agreeCheckbox">
+            <label class="form-check-label fw-semibold" for="agreeCheckbox">
+                I have read and agree to the privacy policy.
+            </label>
+        </div>
+
+        <button type="submit" class="btn btn-success w-100 fw-bold" id="proceedBtn" disabled>
+            <i class="bi bi-check-circle me-2"></i>Agree & Proceed
+        </button>
+    </form>
+
+    <!-- Back to Home Button -->
+    <div class="text-center mt-4">
+        <a asp-controller="Home" asp-action="Index" class="back-home-btn">
+            <i class="bi bi-house-door-fill me-1"></i>Back to Home
+        </a>
+    </div>
+
+    <p class="text-muted text-end mt-3 fst-italic">
+        Last Updated: @Model.CreatedAt.ToString("MMMM dd, yyyy")
+    </p>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Enable checkbox for proceed button
+        const checkbox = document.getElementById("agreeCheckbox");
+        const proceedBtn = document.getElementById("proceedBtn");
+
+        checkbox.addEventListener("change", function () {
+            proceedBtn.disabled = !this.checked;
+        });
+    </script>
+}

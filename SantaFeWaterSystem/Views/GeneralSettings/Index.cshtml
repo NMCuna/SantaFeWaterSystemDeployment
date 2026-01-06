@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "General Settings";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4"><i class="bi bi-gear-fill me-2"></i> General Settings</h2>
+
+    <div class="row g-4">
+        <!-- 🔹 Security Settings -->
+        <div class="col-md-4">
+            <a asp-controller="GeneralSettings" asp-action="Security" class="text-decoration-none">
+                <div class="card shadow-sm border-0 h-100 text-center p-3 setting-card">
+                    <div class="card-body">
+                        <i class="bi bi-shield-lock fs-1 text-primary"></i>
+                        <h5 class="mt-3">Security Settings</h5>
+                        <p class="text-muted small">Password, lockout, and account policies</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- 🔹 Policies -->
+        <div class="col-md-4">
+            <a asp-controller="GeneralSettings" asp-action="Policies" class="text-decoration-none">
+                <div class="card shadow-sm border-0 h-100 text-center p-3 setting-card">
+                    <div class="card-body">
+                        <i class="bi bi-file-earmark-lock fs-1 text-success"></i>
+                        <h5 class="mt-3">Policies & Compliance</h5>
+                        <p class="text-muted small">Privacy, terms, and legal settings</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- 🔹 System Management -->
+        <div class="col-md-4">
+            <a asp-controller="GeneralSettings" asp-action="System" class="text-decoration-none">
+                <div class="card shadow-sm border-0 h-100 text-center p-3 setting-card">
+                    <div class="card-body">
+                        <i class="bi bi-gear-wide-connected fs-1 text-info"></i>
+                        <h5 class="mt-3">System Management</h5>
+                        <p class="text-muted small">Branding, backup, and content management</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
